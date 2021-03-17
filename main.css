@@ -1,0 +1,1014 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./fonts/Gilroy-Light.woff);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./fonts/Gilroy-Medium.woff);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./fonts/Gilroy-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: "Galien"; 
+    src: url(./fonts/Galien-Bold.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 40px 83px;
+}
+
+.main-page {
+    padding: 0px 10px 40px 83px;
+    background: linear-gradient(0deg, #98c3e8, 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    
+}
+
+.navbar {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+
+.logo-image {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+    height: 32px;
+    padding: 8px 0px;
+}
+
+.ellipse-white {
+    position: absolute;
+    left: 10px;
+}
+
+.logo-text {
+    position: absolute;
+    left: 20px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #316099;
+    padding-top: 2px;
+}
+
+.br-menu-btn {
+    width: 32px;
+    height: 32px;
+    padding: 8px 0px;
+    border: none; outline: none;
+}
+
+.br-menu-btn:hover {
+    cursor: pointer;
+}
+
+.main-wrapper {
+    height: 683px;
+    display: flex;
+    flex-direction: row;
+    z-index: 20;
+}
+
+.main-page-text {
+    width: 445px;
+    margin-left: 8%;
+    margin-top: 58px;
+}
+
+.main-title-block {
+    margin-bottom: 32px;
+    width: 512px;
+    height: 148px;
+}
+
+h1 {
+    font-family: 'Galien';
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1f3f68;
+}
+
+.main-description {
+    margin-bottom: 71px;
+    width: 425px;
+    height: 82px;
+}
+
+.main-description-text {
+    font-family: 'Gilroy';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1f3f68;
+    opacity: 0.6;
+}
+
+.btn-submit {
+    width: 220px;
+    height: 56px;
+    background: #5a98d0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    border: 0;
+}
+
+.btn-submit span {
+    font-family: 'Gilroy';
+    font-weight: 300;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.title-image {
+    width: 100%;
+    position: absolute;
+    top: 133px;
+    height: 579px;
+    width: 688px;
+    left: calc(100% - 700px);
+}
+
+.ellipse1 {
+    position: absolute;
+    top: 451px;
+    left: 486px;
+}
+
+.ellipse2 {
+    position: absolute;
+    top: 542px;
+    left: 311px;
+}
+
+.ellipse3 {
+    position: absolute;
+    top: 36px;
+    left: 305px;
+}
+
+.ellipse4 {
+    position: absolute;
+    top: 101px;
+    left: 69px;
+}
+
+.vector1 {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    transform: matrix(1, 0.03, -0.03, 1, 0, 0);
+}
+
+.illustration-bg {
+    position: absolute;
+    top: 20px;
+    left: 21px;
+    width: 646px;
+    height: 490px;
+}
+
+.vector2 {
+    position: absolute;
+    border: 15px solid rgba(255, 255, 255, 0.2);
+    z-index: 10;
+    left: -15px;
+    top: 10px;
+    z-index: 30;
+}
+
+.vector4 {
+    position: absolute;
+    color: #98c3e8;
+}
+
+.group2 {
+    position: absolute;
+    width: 624px;
+    height: 321px;
+    top: 100px;
+    left: 20px;
+    z-index: 9;
+}
+
+.ellipse5 {
+    position: absolute;
+    left: 330px;
+    top: 225px;
+}
+
+.ellipse6 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.ellipse7 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.vector5 {
+    position: absolute;
+    top: 25px;
+    z-index: 3;
+}
+
+.vector3 {
+    position: absolute;
+    top: 102px;
+    left: 186px;
+    z-index: 12;
+}
+
+.ellipse8 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.8;
+    top: 155px;
+    left: 417px;
+    z-index: 10;
+}
+
+.ellipse9 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.8;
+    top: 155px;
+    left: 417px;
+    z-index: 10;
+    top: 304px;
+    left: 542px;
+}
+
+.ellipse10 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.8;
+    top: 155px;
+    left: 417px;
+    z-index: 10;
+    top: 422px;
+    left: 268px;
+}
+
+.smart-home {
+    position: absolute;
+    top: -20px;
+    right: 35px;
+    z-index: 20;
+}
+
+.man {
+    position: absolute;
+    top: 285px;
+    left: 70px;
+    z-index: 32;
+}
+
+.women {
+    position: absolute;
+    top: 190px;
+    left: 505px;
+    z-index: 32;
+}
+
+.group-img {
+    position: absolute;
+    top: 240px;
+    left: 190px;
+    z-index: 35;
+}
+
+.group-img2 {
+    position: absolute;
+    top: 255px;
+    left: 175px;
+    z-index: 36;
+}
+
+.main-info {
+    height: 1554px;
+    padding: 40px 10px 40px 83px;
+}
+
+.main-info-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1162px;
+}
+
+.main-info-title {
+    width: 368px;
+    height: 138px;
+    margin-top: 152px;
+    margin-left: 8%;
+    font-family: 'Gilroy';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #316099;
+}
+
+.table-box {
+    width: 380px;
+    height: 525px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    float: right;
+}
+
+.box_one {
+    margin-left: 20%;
+    margin-top: 152px;
+}
+
+.table-box-image {
+    width: 224px;
+    height: 197px;
+    margin: 0 auto;
+    top: 12px;
+}
+
+.table-box-image img {
+    margin-top: -24px;
+}
+
+.table-box-title {
+    margin-top: 51px;
+    margin-left: 48px;
+    margin-bottom: 16px;
+    width: 260px;
+    height: 60px;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1f3f68;
+}
+
+.table-box-text {
+    margin-left: 48px;
+    width: 284px;
+    height: 103px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1f3f68;
+    opacity: 0.6;
+}
+
+.table-box-more {
+    display: flex;
+    flex-direction: row;
+    margin-left: 48px;
+    margin-top: 32px;
+    width: 127px;
+    height: 30px;
+}
+
+.table-box-more-text {
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5a98d0;
+}
+
+.forward-vector {
+    margin-left: 28px;
+    margin-top: 7px;
+}
+
+.table-box-more a {
+    cursor: pointer;
+    color: #5a98d0;
+}
+
+.box_two {
+    flex-wrap: wrap;
+    margin-top: -220px;
+    margin-left: 20%;
+}
+
+.image2 {
+    margin-top: 48px;
+    height: 132px;
+}
+
+.title3 {
+    width: 286px;
+}
+
+.box_three {
+    margin-left: 7%;
+    margin-top: 110px;
+}
+
+.clients {
+    height: 680px;
+    background: #5a98d0;
+    border-radius: 200px 0px 0px 0px;
+}
+
+.clients-wrapper {
+    padding: 40px 10px 40px 83px;
+}
+
+.clients-top {
+    display: flex;
+    flex-direction: row;
+    height: 92px;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-left: -13%;
+    margin-top: 56px;
+}
+
+.clients-title {
+    width: 224px;
+    height: 92px;
+    font-family: 'Gilroy';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.clients-text {
+    margin-left: 97px;
+    width: 540px;
+    height: 80px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.table {
+    width: 940px;
+    height: 256px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    width: 235px;
+    height: 128px;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #f2f2f2;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+tr.first-line th {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    border-collapse: collapse;
+    opacity: 0.8;
+}
+
+tr.first-line th:last-child {
+    border-right: none;
+}
+
+tr.second-line th {
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    opacity: 0.8;
+}
+
+tr.second-line th:last-child {
+    border-right: none;
+    background-color: rgba(31, 63, 104, 0.2);
+    text-transform: none;
+    z-index: 2;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: 869px;
+    background-color: #5a98d0;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat {
+    width: 93%;
+    height: 391px;
+    border-radius: 0px 200px 0px 0px;
+    background-color: #316099;
+    display: flex;
+    flex-direction: row;
+}
+
+.chat-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+}
+
+.chat-block-title {
+    margin-top: 91px;
+    width: 330px;
+    font-family: 'Gilroy';
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #f2f2f2;
+    font-weight: 600;
+}
+
+.chat-block-text {
+    margin-top: 32px;
+    width: 460px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #f2f2f2;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.chat-button {
+    margin-top: 165px;
+    margin-left: 180px;
+    width: 220px;
+    height: 56px;
+    background: #5a98d0;
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+}
+
+.chat-line {
+    width: 93%;
+    background-color: #316099;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    height: 459px;
+    background-color: #316099;
+}
+
+.connect-block {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 14%;
+    margin-top: 97px;
+}
+
+.white-round {
+    margin-left: -20px;
+}
+
+.logo-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.connect-title {
+    display: flex;
+    flex-direction: row;
+    width: 188px;
+}
+
+.connect-title-block {
+    display: flex;
+    flex-direction: row;
+    width: 125px;
+    height: 46px;
+    margin-left: 15px;
+    font-family: 'Gilroy';
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.connect-first {
+    display: flex;
+    flex-direction: row;
+    margin-top: 39px;
+    margin-bottom: 24px;
+}
+
+.connect-tel, .connect-mail {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+
+.connect-letter {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.connect-value {
+    margin-left: 16px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    font-weight: 400;
+}
+
+.connect-value a {
+    color: #fff;
+}
+
+.about-title {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.about-block {
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    margin-left: 100px;
+    margin-top: 97px;
+}
+
+.about-list {
+    margin-top: 39px;
+}
+
+.about-list li {
+    margin-bottom: 16px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.copyright {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    font-weight: 400;
+    opacity: 0.4;
+    background-color: #316099;
+    margin-left: 14%;
+    margin-top: 40px;
+    margin-bottom: 64px;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contact-wrapper {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(253.6deg, #98d0fc 2.26%, #3481d7 93.24%);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title {
+    margin: 0 auto;
+    width: 246px;
+    height: 74px;
+    margin-top: 3%;
+}
+
+.contact-title h1 {
+    font-family: 'Gilroy';
+    font-size: 44px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.contact-subtitle {
+    width: 780px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.contact-subtitle p {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact-line-vector {
+    position: absolute;
+    top: 28px;
+    width: 100%;
+    height: 437px;
+}
+
+.vector-block {
+    position: absolute;
+    width: 100%;
+    height: 471px;
+    left: 0;
+    top: 18px;
+}
+
+.vector-block .ellipse5 {
+    position: absolute;
+    left: 17%;
+    top: 343px;
+}
+
+.vector-block .ellipse6 {
+    position: absolute;
+    left: -10px;
+    top: 278px;
+}
+
+.vector-block .ellipse7 {
+    position: absolute;
+    left: 62%;
+    top: 311px;
+}
+
+.vector-block .ellipse13 {
+    position: absolute;
+    left: 92%;
+    top: 161px;
+}
+
+.vector-block .ellipse14 {
+    position: absolute;
+    left: 6%;
+    top: 125px;
+}
+
+.vector-block .ellipse15 {
+    position: absolute;
+    left: 34%;
+    top: 217px;
+}
+
+.vector-block .ellipse16 {
+    position: absolute;
+    left: 42%;
+    top: 355px;
+}
+
+.vector-block .ellipse17 {
+    position: absolute;
+    right: -10px;
+    top: 218px;
+}
+
+.contact-main {
+    padding: 40px 13.5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.contact-info {
+    margin-top: 100px;
+}
+
+.contact-info-title {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1f3f68;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 71px;
+}
+
+.contact-info-address-text {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1f3f68;
+    font-weight: 400;
+    margin-top: 24px;
+    opacity: 0.6;
+}
+
+.contact-info-phone-block {
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+}
+
+.contact-info-phone-block a {
+    margin-left: 19px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1f3f68;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-top: -5px;
+}
+
+.contact-form {
+    width: 540px;
+    height: 800px;
+    margin-left: 101px;
+    margin-top: 40px;
+    padding: 56px;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+}
+
+.title-form {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1f3f68;
+    font-weight: 400;
+    margin-top: 48px;
+}
+
+.input-name, .input-mail, .message {
+    border-radius: 10px;
+    border: 1px solid #356ead;
+    box-sizing: border-box;
+    opacity: 0.4;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.input-name, .input-mail {
+    width: 94%;
+    height: 72px;
+}
+
+.message {
+    width: 94%;
+    height: 182px;
+}
+
+.input-name::-webkit-input-placeholder, .input-mail::-webkit-input-placeholder {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1f3f68;
+    padding-left: 42px;
+}
+
+.message::-webkit-input-placeholder {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1f3f68;
+    padding-left: 42px;
+    padding-top: 21px;
+}
+
+.submit {
+    width: 94%;
+    height: 72px;
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    margin-top: 72px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit span {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.contact-map {
+    padding: 40px 13.5%;
+    margin-top: 80px;
+}
+
+.contact-map img {
+    width: 100%;
+}
+
+.footer-wrapper2 {
+    width: 100%;
+    height: 869px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+}
