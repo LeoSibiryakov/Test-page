@@ -33,6 +33,7 @@
 
 a {
     text-decoration: none;
+    color: #ffffff;
 }
 
 body {
@@ -757,6 +758,8 @@ tr.second-line th:last-child {
 }
 
 
+/* Page 2*/
+
 .contact-wrapper {
     width: 100%;
     height: 250px;
@@ -857,8 +860,13 @@ tr.second-line th:last-child {
 
 .vector-block .ellipse17 {
     position: absolute;
-    right: -10px;
+    right: 0px;
     top: 218px;
+}
+
+.illustration {
+    position: absolute;
+    display: none;
 }
 
 .contact-main {
@@ -1011,4 +1019,233 @@ tr.second-line th:last-child {
     display: flex;
     flex-direction: column;
     margin-top: 56px;
+}
+
+ @media (min-width: 360px) and (max-width: 1390px) {
+
+    .table-box {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        max-width: 380px;
+    }
+}
+
+@media (min-width: 1150px) and (max-width: 1390px) {
+
+    .main-page {
+        padding: 5%;
+    }
+
+    .main-wrapper, .main-info, .main-info-wrapper {
+        height: auto;
+    }
+
+    .main-page-text, .main-info-title {
+        margin-left: 2%;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .main-title-block {
+        width: 55%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2.4em;
+    }
+
+    .title-image {
+        display: block;
+        top: 50px;
+    }
+
+    .illustration {
+        display: none;
+    }
+
+    .main-info-title {
+        text-align: center;
+    }
+}
+
+
+
+@media (min-width: 360px) and (max-width: 1149px) {
+
+    header, .main-page, .main-info, .clients-wrapper {
+        padding: 5%;
+    }
+
+    .main-wrapper, .main-info, .main-info-wrapper, 
+    .main-info-title, .table-box-title, .table-box-text, 
+    .clients, .footer-wrapper, .chat, .footer-info, .contact-wrapper, .contact-subtitle  {
+        height: auto;
+    }
+
+    .main-page-text, .main-info-title {
+        margin-left: 2%;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .main-info-title {
+        text-align: center;
+    }
+
+    .main-title-block {
+        width: 55%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2.4em;
+    }
+
+    .title-image {
+        display: none;
+    }
+
+    .btn-submit, .main-info-title {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .table-box-title {
+        width: 80%;
+    }
+
+    .table-box-text {
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .table-box-more {
+        margin-bottom: 20px;
+    }
+
+    .clients-top {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .clients-title, .clients-text {
+        margin: 0 auto;
+        width: 80%;
+        height: auto;
+        margin-left: 25%;
+    }
+
+    .clients-text {
+        margin-top: 5%;
+        margin-right: 5%;
+        width: 75%;
+    }
+
+    .table {
+        width: auto;
+        height: auto;
+    }
+
+    .chat {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chat-block {
+        margin-left: 5%;
+    }
+
+    .chat-block-title {
+        margin-top: 10%;
+        width: 70%;
+    }
+
+    .chat-block-text {
+        width: 90%;
+    }
+
+    .chat-button {
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    .info-block {
+        flex-direction: column;
+    }
+
+    .connect-block, .about-block, .copyright {
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 100%;
+    }
+
+    .connect-value, .copyright {
+        width: 86%;
+    }
+
+    .illustration {
+        display: block;
+        width: 50%;
+        top: 8%;
+        left: 50%;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .contact-subtitle {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .contact-main {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .contact-form {
+        margin-left: 0px;
+        width: 100%;
+        padding: 0px;
+        height: auto;
+    }
+
+    h3, .title-form, .input-name {
+        margin-top: 48px;
+        margin-left: 5%;
+    }
+
+    .input-name, .input-mail, .message, .submit {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .submit {
+        margin-bottom: 5%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 650px) {
+
+    .main-description {
+        width: 90%;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 1000px) {
+
+    .main-description {
+        width: 50%;
+        height: auto;
+    }
+
+    .main-title-block {
+        width: 50%;
+    }
 }
